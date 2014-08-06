@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">MDroid</string>
-	<string name="MainTitle">MDroid MusicQuiz</string>
 
-	<string name="setting_title">Settings</string>
-	<string name="file_title">Select Music Folder</string>
-	<string name="file_folderName">/</string>
-	<string name="btnSelectDir_label">Select and Scan</string>
-
-
-	<string name="menuAbout_label">About</string>
-	<string name="menuAbout_shortcut">a</string>
-	<string name="menuSettings_label">Settings...</string>
-	<string name="menuSettings_shortcut">s</string>
-
-	<string name="cancel">Cancel</string>
-
-	<string name="btnNew_lable">Start</string>
-	<string name="btnExit_lable">Exit</string>
-	<string name="btnSettings_lable">Settings</string>
-	<string name="btnBoard_lable">Glory Hall</string>
-
-	<string name="about_title">About MDriod</string>
-	<string name="about_content">
-		This is a BETA test version.\n
-		MDroid Music Quiz is a game which loads music from local SDCard or Phone Memory and turns them into exciting music quiz game.\n	
-	</string>
-
-	<string name="agreement">
-		Congratulations and thank you for installing MDroid.
+    <string name="app_name">MDroid</string>
+    <string name="MainTitle">MDroid MusicQuiz</string>
+    <string name="setting_title">Settings</string>
+    <string name="file_title">Select Music Folder</string>
+    <string name="file_folderName">/</string>
+    <string name="btnSelectDir_label">Select and Scan</string>
+    <string name="menuAbout_label">About</string>
+    <string name="menuAbout_shortcut">a</string>
+    <string name="menuSettings_label">Settings...</string>
+    <string name="menuSettings_shortcut">s</string>
+    <string name="cancel">Cancel</string>
+    <string name="btnNew_lable">Start</string>
+    <string name="btnExit_lable">Exit</string>
+    <string name="btnSettings_lable">Settings</string>
+    <string name="btnBoard_lable">Glory Hall</string>
+    <string name="about_title">About MDriod</string>
+    <string name="about_content">		This is a BETA test version.\n
+		MDroid Music Quiz is a game which loads music from local SDCard or Phone Memory and turns them into exciting music quiz game.\n	</string>
+    <string name="agreement">		Congratulations and thank you for installing MDroid.
 		\n\nBefore you start here are some quick introductions.
 		\n\nTime Mode: In time mode one song will be played and four choices is given, 
 		your goal is to choose the correct match of the song as fast as possible. 
@@ -38,73 +29,69 @@
 		\n\nYou can also
 		check allow repeat in settings page if you do not have enough songs to
 		play with.
-		\n\nMost importantly, HAVE FUN, lot of it!
-	</string>
-
-	<string name="warn_notEnoughSound">You do not have enough sounds to complete this
+		\n\nMost importantly, HAVE FUN, lot of it!</string>
+    <string name="warn_notEnoughSound">You do not have enough sounds to complete this
 		quiz!\n
 		Do you want do continue by allowing repeated song?</string>
 
-	<!-- Time Mode START -->
-	<string name="tMode_name">Timed Mode</string>
-	<string name="tMode_startTitle">Are You Ready To Rock?!</string>
-	<string name="tMode_startMsg">
-		Goal: Finish the question as fast as you can.
+    <!-- Time Mode START -->
+    <string name="tMode_name">Timed Mode</string>
+    <string name="tMode_startTitle">Are You Ready To Rock?!</string>
+    <string name="tMode_startMsg">		Goal: Finish the question as fast as you can.
 		\nScore base on time and accuracy.
-		\n\nAre you ready?!
-	</string>
-	<string name="status_probNum_label">Problem #</string>
-	<string name="status_probNum">1</string>
-	<string name="status_acc_label">Accuracy</string>
-	<string name="status_acc">0%</string>
-	<string name="status_time_label">Time</string>
-	<string name="status_time">0s</string>
+		\n\nAre you ready?!</string>
+    <string name="status_probNum_label">Problem #</string>
+    <string name="status_probNum">1</string>
+    <string name="status_acc_label">Accuracy</string>
+    <string name="status_acc">0%</string>
+    <string name="status_time_label">Time</string>
+    <string name="status_time">0s</string>
+    <string name="btn_answer1">None</string>
+    <string name="btn_answer2">None</string>
+    <string name="btn_answer3">None</string>
+    <string name="btn_answer4">None</string>
+    <string name="mode_loading">Loading</string>
 
-	<string name="btn_answer1">None</string>
-	<string name="btn_answer2">None</string>
-	<string name="btn_answer3">None</string>
-	<string name="btn_answer4">None</string>
-	
-	<string name="mode_loading">Loading</string>
-	
-	<!-- Time Mode END -->
-	
-	<string name="fetching_web">Fetching Global Score Ranking</string>
-	<string name="fetching_xml">Fetching Local Score Ranking</string>
-	
-	<string name="btn_continue">Continue</string>
-	<string name="btn_quit">Quit</string>
-	
-	<string name="quizComplete">Quiz Complete</string>
-	<string name="errorOccur">A Problem Has Occur.</string>
-	
-	<string name="warning">Warning!</string>
-	
-	<!-- Config START -->
-	<string name="cat1">General Options</string>
-	<string name="config_musicFolder">Select music folder.</string>
-	<string name="config_subFolder">Include Sub-Folders</string>
-	<string name="config_subFolder_summOn">Search Music in Sub-Folders.</string>
-	<string name="config_subFolder_summOff">DO NOT Search Music in Sub-Folders.</string>
-	<string name="dir_title">Choose your music folder</string>
-	<!-- Config END -->
-	
-	<!-- Libaray Building -->
-	<string name="lib_title">Refresh music library</string>
-	<string name="lib_line1">Initializing</string>
-	<string name="lib_line2">Please Wait</string>
-	<string name="lib_success">Library successfully built!</string>
-	<string name="lib_problem">Opps... Problem Occurs</string>
-	<string name="lib_defSum">Click me to build library.</string>
-	<string name="lib_hint">Please wait...</string>
-	
-	<!-- Score Board -->
-	<string name="fetching_failed">No result found!</string>
-	
-	<!-- Game Mode -->
-		<!-- Flash Mode -->
-		<string name="text_mode_flash_hit">HIT</string>
-		<string name="text_mode_flash_miss">MISS</string>
-		<string name="text_mode_flash_time">TIME</string>
-		
+    <!-- Time Mode END -->
+
+    <string name="fetching_web">Fetching Global Score Ranking</string>
+    <string name="fetching_xml">Fetching Local Score Ranking</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_quit">Quit</string>
+    <string name="quizComplete">Quiz Complete</string>
+    <string name="errorOccur">A Problem Has Occur.</string>
+    <string name="warning">Warning!</string>
+
+    <!-- Config START -->
+    <string name="cat1">General Options</string>
+    <string name="config_musicFolder">Select music folder.</string>
+    <string name="config_subFolder">Include Sub-Folders</string>
+    <string name="config_subFolder_summOn">Search Music in Sub-Folders.</string>
+    <string name="config_subFolder_summOff">DO NOT Search Music in Sub-Folders.</string>
+    <string name="dir_title">Choose your music folder</string>
+    <!-- Config END -->
+
+
+    <!-- Libaray Building -->
+    <string name="lib_title">Refresh music library</string>
+    <string name="lib_line1">Initializing</string>
+    <string name="lib_line2">Please Wait</string>
+    <string name="lib_success">Library successfully built!</string>
+    <string name="lib_problem">Opps... Problem Occurs</string>
+    <string name="lib_defSum">Click me to build library.</string>
+    <string name="lib_hint">Please wait...</string>
+
+    <!-- Score Board -->
+    <string name="fetching_failed">No result found!</string>
+
+    <!-- Game Mode -->
+    <!-- Flash Mode -->
+    <string name="text_mode_flash_hit">HIT</string>
+    <string name="text_mode_flash_miss">MISS</string>
+    <string name="text_mode_flash_time">TIME</string>
+    <!-- Tester -->
+    <string name="text_mode_flash_miss11">MISS</string>
+    <string name="text_mode_flash_miss2323">MISS</string>
+    <string name="text_mode_flash_S">MISS</string>
+
 </resources>
