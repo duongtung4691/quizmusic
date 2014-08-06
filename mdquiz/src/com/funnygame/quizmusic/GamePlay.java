@@ -46,7 +46,7 @@ import android.widget.Toast;
 public class GamePlay extends Activity implements OnTouchListener,
 		OnClickListener {
 	/************************
-	 * General constants
+	 * General constantsSD
 	 */
 
 	// Number of errors can occur before stop.

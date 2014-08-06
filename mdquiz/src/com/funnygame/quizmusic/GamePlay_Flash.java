@@ -46,7 +46,7 @@ import android.widget.Toast;
 public class GamePlay_Flash extends Activity implements OnClickListener {
 
 	/* ***********************
-	 * General constants
+	 * General constantsSD
 	 */
 	// Number of errors can occur before stop.
 	private final static int MAX_ERROR = 10;
