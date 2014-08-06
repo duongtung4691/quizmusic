@@ -23,7 +23,7 @@
 	
 2.0.5Beta BD:TBA
 	*More complete per-game check for not enough songs error.
-
+SZDSDHF;LSDAF;LAS
 
 TODO: Add close button in glory hall.
 	
