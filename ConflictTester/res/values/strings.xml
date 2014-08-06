@@ -6,9 +6,4 @@
     <string name="title_activity_main_test">MainTestActivity</string>
     <string name="title_activity_main_test2">MainTestActivity</string>
     <string name="title_activity">MainTestActivity</string>
-
-    <!-- 1232 -->
-    <!-- 1 2-->
-    <string name="app_name1">ConflictTester</string>
-
 </resources>

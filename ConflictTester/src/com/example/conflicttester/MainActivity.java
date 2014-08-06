@@ -11,11 +11,5 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		// adf
-		// slkhdf//adf
-		// 1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//
-		// 1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//
-		
-		//22222222222222222222222222222222222
 	}
 }
