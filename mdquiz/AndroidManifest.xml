@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:screenOrientation="portrait" >
         <activity
-            android:name="com.funnygame.quizmusic.splash"
+            android:name="com.funnygame.quizmusic.activity.splash"
             android:configChanges="locale"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -22,20 +22,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.MusicQuiz"
+            android:name="com.funnygame.quizmusic.activity.MusicQuiz"
             android:configChanges="locale"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.About"
+            android:name="com.funnygame.quizmusic.activity.About"
             android:icon="@drawable/icon"
             android:label="@string/about_title"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.Prefs"
+            android:name="com.funnygame.quizmusic.activity.Prefs"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
@@ -50,12 +50,12 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.Result"
+            android:name="com.funnygame.quizmusic.activity.Result"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.sBoard"
+            android:name="com.funnygame.quizmusic.activity.sBoard"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
@@ -96,17 +96,17 @@
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.libBuilder"
+            android:name="com.funnygame.quizmusic.activity.libBuilder"
             android:label="@string/lib_title"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.ModeSelection"
+            android:name="com.funnygame.quizmusic.activity.ModeSelection"
             android:label="Select Mode"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.funnygame.quizmusic.showDetail"
+            android:name="com.funnygame.quizmusic.activity.showDetail"
             android:label=""
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >

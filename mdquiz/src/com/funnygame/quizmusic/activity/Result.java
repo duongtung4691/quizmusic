@@ -1,4 +1,4 @@
-package com.funnygame.quizmusic;
+package com.funnygame.quizmusic.activity;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -20,6 +20,11 @@ import org.xml.sax.SAXException;
 import org.xmlpull.v1.XmlSerializer;
 
 import com.funnygame.quizmusic.R;
+import com.funnygame.quizmusic.animToolBox;
+import com.funnygame.quizmusic.R.anim;
+import com.funnygame.quizmusic.R.drawable;
+import com.funnygame.quizmusic.R.id;
+import com.funnygame.quizmusic.R.layout;
 
 import android.app.Activity;
 import android.app.AlertDialog;

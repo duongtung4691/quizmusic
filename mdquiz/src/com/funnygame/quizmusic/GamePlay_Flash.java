@@ -10,6 +10,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import com.funnygame.quizmusic.R;
+import com.funnygame.quizmusic.activity.MusicQuiz;
+import com.funnygame.quizmusic.activity.Result;
 
 import android.app.Activity;
 import android.app.AlertDialog;

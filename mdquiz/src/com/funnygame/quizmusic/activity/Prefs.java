@@ -1,6 +1,9 @@
-package com.funnygame.quizmusic;
+package com.funnygame.quizmusic.activity;
 
+import com.funnygame.quizmusic.DirBrowser;
 import com.funnygame.quizmusic.R;
+import com.funnygame.quizmusic.R.string;
+import com.funnygame.quizmusic.R.xml;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

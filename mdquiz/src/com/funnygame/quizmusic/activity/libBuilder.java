@@ -1,4 +1,4 @@
-package com.funnygame.quizmusic;
+package com.funnygame.quizmusic.activity;
 
 import entagged.audioformats.AudioFile;
 import entagged.audioformats.AudioFileIO;
@@ -16,6 +16,10 @@ import java.util.HashMap;
 import org.xmlpull.v1.XmlSerializer;
 
 import com.funnygame.quizmusic.R;
+import com.funnygame.quizmusic.comFun;
+import com.funnygame.quizmusic.R.id;
+import com.funnygame.quizmusic.R.layout;
+import com.funnygame.quizmusic.R.string;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
