@@ -1,8 +1,20 @@
-package com.funnygame.quizmusic;
+package com.funnygame.quizmusic.activity;
 
 import java.util.Locale;
 
+import com.funnygame.quizmusic.About;
+import com.funnygame.quizmusic.DirBrowser;
+import com.funnygame.quizmusic.ModeSelection;
+import com.funnygame.quizmusic.Prefs;
 import com.funnygame.quizmusic.R;
+import com.funnygame.quizmusic.animToolBox;
+import com.funnygame.quizmusic.sBoard;
+import com.funnygame.quizmusic.R.anim;
+import com.funnygame.quizmusic.R.drawable;
+import com.funnygame.quizmusic.R.id;
+import com.funnygame.quizmusic.R.layout;
+import com.funnygame.quizmusic.R.menu;
+import com.funnygame.quizmusic.R.string;
 
 import android.app.Activity;
 import android.app.AlertDialog;

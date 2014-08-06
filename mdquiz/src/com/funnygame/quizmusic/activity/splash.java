@@ -1,6 +1,9 @@
-package com.funnygame.quizmusic;
+package com.funnygame.quizmusic.activity;
 
 import com.funnygame.quizmusic.R;
+import com.funnygame.quizmusic.R.anim;
+import com.funnygame.quizmusic.R.id;
+import com.funnygame.quizmusic.R.layout;
 
 import android.app.Activity;
 import android.content.Intent;
