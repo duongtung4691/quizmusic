@@ -13,16 +13,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		// adf
 		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf//adf
-		// slkhdf
-
+		// 1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//
+		// 1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//
+		// 1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1//1
 	}
 }
