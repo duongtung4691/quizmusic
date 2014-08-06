@@ -41,7 +41,7 @@ public class MusicQuiz extends Activity implements OnClickListener,
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE); // Hide title bar.
+		requestWindowFeature(Window.FEATURE_NO_TITLE); // Hide title bar.G
 
 		/*
 		 * Country and Language List.
