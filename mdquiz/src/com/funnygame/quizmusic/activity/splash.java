@@ -1,19 +1,16 @@
 package com.funnygame.quizmusic.activity;
 
-import com.funnygame.quizmusic.R;
-import com.funnygame.quizmusic.R.anim;
-import com.funnygame.quizmusic.R.id;
-import com.funnygame.quizmusic.R.layout;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.view.animation.Animation.AnimationListener;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.funnygame.quizmusic.R;
 
 public class splash extends Activity {
 	// private final String TAG = "Splash";

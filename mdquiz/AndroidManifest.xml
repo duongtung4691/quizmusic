@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.funnygame.quizmusic"
     android:screenOrientation="nosensor"
-    android:versionCode="34"
-    android:versionName="2.0.4BETA BD:20110211" >
+    android:versionCode="1"
+    android:versionName="2.0.4 BD:20110211" >
 
     <application
         android:icon="@drawable/icon"

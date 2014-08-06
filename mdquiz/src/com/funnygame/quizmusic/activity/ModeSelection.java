@@ -1,23 +1,19 @@
 package com.funnygame.quizmusic.activity;
 
-import com.funnygame.quizmusic.GamePlay_Flash;
-import com.funnygame.quizmusic.R;
-import com.funnygame.quizmusic.R.anim;
-import com.funnygame.quizmusic.R.id;
-import com.funnygame.quizmusic.R.layout;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
+import android.view.WindowManager;
 import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.view.animation.Animation.AnimationListener;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.funnygame.quizmusic.R;
 
 public class ModeSelection extends Activity implements OnTouchListener,
 		OnClickListener {
@@ -32,7 +28,7 @@ public class ModeSelection extends Activity implements OnTouchListener,
 		iv = (ImageView) findViewById(R.id.timeMode);
 		iv.setOnTouchListener(this);
 		iv.setOnClickListener(this);
-		
+
 		spin = AnimationUtils.loadAnimation(this, R.anim.disk);
 		spin.setFillAfter(true);
 		spin.setAnimationListener(new AnimationListener() {
@@ -54,7 +50,6 @@ public class ModeSelection extends Activity implements OnTouchListener,
 				// it.putExtras(bundle);
 				// startActivity(it);
 
-				startActivity(new Intent(ModeSelection.this, GamePlay_Flash.class));
 				ModeSelection.this.finish();
 			}
 
@@ -84,9 +79,9 @@ public class ModeSelection extends Activity implements OnTouchListener,
 
 	@Override
 	public void onClick(View v) {
-		
-		
+
 	}
+
 	private ImageView iv;
 	private Animation spin;
 }

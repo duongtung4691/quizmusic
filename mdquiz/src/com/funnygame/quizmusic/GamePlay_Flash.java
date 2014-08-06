@@ -9,10 +9,6 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import com.funnygame.quizmusic.R;
-import com.funnygame.quizmusic.activity.MusicQuiz;
-import com.funnygame.quizmusic.activity.Result;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -42,6 +38,9 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.funnygame.quizmusic.activity.MusicQuiz;
+import com.funnygame.quizmusic.activity.Result;
 
 public class GamePlay_Flash extends Activity implements OnClickListener {
 
