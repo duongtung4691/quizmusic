@@ -19,6 +19,7 @@ public class splash extends Activity {
 	// private final String TAG = "Splash";
 	private final int WELCOME_TIME = 3000;
 
+	// COMMEMT
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -60,5 +61,6 @@ public class splash extends Activity {
 		});
 		iv.startAnimation(fadeOut);
 	}
+
 	private ImageView iv;
 }
