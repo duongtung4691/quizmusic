@@ -7,8 +7,6 @@
     <string name="title_activity_main_test2">MainTestActivity</string>
     <string name="title_activity">MainTestActivity</string>
 
-    <!-- 2 -->
-    <string name="app_name2">ConflictTester</string>
     <!-- 1 -->
     <string name="app_name1">ConflictTester</string>
 
