@@ -9,5 +9,7 @@
 
     <!-- 1 -->
     <string name="app_name1">ConflictTester</string>
+    <!-- 2 -->
+    <string name="app_name2">ConflictTester</string>
 
 </resources>
