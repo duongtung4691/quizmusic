@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">ConflictTester</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_main_test">MainTestActivity</string>
-    <string name="title_activity_main_test2">MainTestActivity</string>
-    <string name="title_activity">MainTestActivity</string>
-</resources>
